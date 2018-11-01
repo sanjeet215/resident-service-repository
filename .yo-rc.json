@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "residentservice",
+    "packageName": "com.residentservice.application",
+    "packageFolder": "com/residentservice/application",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "M2IyOTBhNjk5MTM1MWE5ZGRjZjFmY2MwNWVjOGJmOGY0ZTllNmM2ZTkxNzM4ZGM0MTc3ZmQ4MjRiMGU5ODA0OTA4MWJiN2Y4NmZjMDg5ZjlhMTM4M2IyN2JmNTQ2ZmJhNzdhYmFiMGIyNzRkYThmZGZkN2I0YmY0YWU5MWRmMTM=",
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "sanjeet215",
+  "repository-name": "resident-service-repository"
+}
